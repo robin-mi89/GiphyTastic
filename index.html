@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/week5style.css">
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trivia Game!</title>
+    </head>
+    <body>
+
+    
+    <header>
+         <div class = "container">
+            <h1 style = "text-align: center" >Trivia Game!</h1>
+         </div>
+    </header>
+
+   
+    <div class = "container">
+        <div class = "jumbotron">
+            <div class = "row">
+                <h3 id = "time-left"></h3>
+            </div>
+            <div class = "row">
+                <h2 id = "question"></h2>
+            </div>
+            <div class = "row">
+                <img id = "image">
+                <h2 id = "reset">Click Here to Start</h2>
+            </div>
+            <div class = "row">
+                <p id = "answer1" class = "answer" value = "a"></p>
+                <p id = "answer2" class = "answer" value = "b"></p>
+                <p id = "answer3" class = "answer" value = "c"></p>
+                <p id = "answer4" class = "answer" value = "d"></p>
+            </div>
+            <div class = "row">
+                <div class = "col-sm-4">
+                    <p id = "correct"></p>
+                </div>
+                <div class = "col-sm-4">
+                    <p id = "incorrect"></p>
+                </div>
+                <div class = "col-sm-4">
+                    <p id = "unanswered"></p>
+                </div>
+            </div>
+        </div>
+        
+        <!--<button id = "start">Start</button>
+        <button id = "stop">Stop</button>-->
+    </div>
+
+    
+         
+        <audio id = "audio"></audio>
+
+
+        <!--<footer class="navbar-fixed-bottom">
+            <p class= "text-muted text-center"> © Copyright 2017 Robin Mi</p>
+        </footer>-->
+
+        <script src="assets/javascript/week5.js"></script> 
+        
+    </body>
+</html>
