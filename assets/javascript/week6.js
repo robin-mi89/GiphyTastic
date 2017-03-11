@@ -28,11 +28,11 @@ function searchGiphy()
           "data-still": stillURL,
           "data-animate": animatedURL,
           "data-state": "still",
-          "class": "gif"
+          "class": "gif img-responsive"
         });
         tempRating.appendTo(tempDiv);
         tempImg.appendTo(tempDiv);
-        tempDiv.prependTo($("#image-holder"+(i%2)))
+        tempDiv.prependTo($("#image-holder"))
         
       }
     });
