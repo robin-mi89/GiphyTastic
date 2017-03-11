@@ -8,8 +8,7 @@ function searchGiphy()
     var numImages = 10;
     var queryURL = "https://api.giphy.com/v1/gifs/search?q="+ $(this).text() +"&limit="+ numImages +"&api_key="+apiKey;
     //console.log(queryURL);
-    $("#image-holder0").empty();
-    $("#image-holder1").empty();
+    $("#image-holder").empty();
      $.ajax({
       url: queryURL,
       method: 'GET'
