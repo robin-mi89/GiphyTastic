@@ -6,7 +6,7 @@ var apiKey = "dc6zaTOxFJmzC";
 function searchGiphy()
 {
     var numImages = 10;
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q="+ $(this).text() +"&limit="+ numImages +"&api_key="+apiKey;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q="+ $(this).text() +"&limit="+ numImages +"&api_key="+apiKey;
     //console.log(queryURL);
     $("#image-holder0").empty();
     $("#image-holder1").empty();
